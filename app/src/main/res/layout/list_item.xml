@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imv_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:text="Họ và tên :"
+        android:textSize="20dp"
+
+        ></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_student_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Mã Sinh Viên:"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lớp Học Phần:"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_major"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuyên Ngành :"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày Sinh:"
+        android:textSize="20dp"
+        ></TextView>
+</LinearLayout>
